@@ -14,7 +14,7 @@ This repository serves as a digital portfolio of my academic journey. I am uploa
 
 ## Technologies I’m Working With
 As part of my studies, I am actively working with a range of programming languages, tools, and technologies, including:
-- **Languages**: C++, Python, Java, SQL
+- **Languages**: C, C++, Python, Java, Oracle, R
 - **Web Development**: HTML, CSS, JavaScript
 - **Others**: Git, Linux, Shell scripting, and more
 
