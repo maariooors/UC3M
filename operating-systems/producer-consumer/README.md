@@ -1,4 +1,4 @@
-![](image1.png){width="5.906944444444444in"
+![image1](https://github.com/user-attachments/assets/68f74bcd-eec4-45e6-adf7-4b2875e25651){width="5.906944444444444in"
 height="1.9069444444444446in"}
 
 > Universidad Carlos III\
