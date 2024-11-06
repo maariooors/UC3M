@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test_checkout_tests.Test_checkout_tests-20240331152711" tests="10" file="test_checkout_tests.py" time="0.112" timestamp="2024-03-31T15:27:12" failures="0" errors="0" skipped="0">
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_not_valid_1" time="0.046" timestamp="2024-03-31T15:27:12"/>
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_not_valid_2" time="0.006" timestamp="2024-03-31T15:27:12"/>
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_not_valid_3" time="0.006" timestamp="2024-03-31T15:27:12"/>
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_not_valid_4" time="0.006" timestamp="2024-03-31T15:27:12"/>
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_not_valid_5" time="0.006" timestamp="2024-03-31T15:27:12"/>
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_not_valid_6" time="0.010" timestamp="2024-03-31T15:27:12"/>
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_not_valid_7" time="0.006" timestamp="2024-03-31T15:27:12"/>
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_valid_1" time="0.009" timestamp="2024-03-31T15:27:12"/>
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_valid_2" time="0.009" timestamp="2024-03-31T15:27:12"/>
+	<testcase classname="test_checkout_tests.Test_checkout_tests" name="test_guest_checkout_valid_3" time="0.009" timestamp="2024-03-31T15:27:12"/>
+</testsuite>

@@ -1,0 +1,24 @@
+Name                                               Stmts   Miss Branch BrPart  Cover
+------------------------------------------------------------------------------------
+uc3m_travel\attributes\attribute.py                   19      4      6      0    84%
+uc3m_travel\attributes\attribute_arival_date.py        6      0      0      0   100%
+uc3m_travel\attributes\attribute_credit_card.py       25      0      6      0   100%
+uc3m_travel\attributes\attribute_id_card.py           18      0      4      0   100%
+uc3m_travel\attributes\attribute_localizer.py          6      0      0      0   100%
+uc3m_travel\attributes\attribute_name_surname.py       6      0      0      0   100%
+uc3m_travel\attributes\attribute_numdays.py           17      0      0      0   100%
+uc3m_travel\attributes\attribute_phone_number.py       6      0      0      0   100%
+uc3m_travel\attributes\attribute_room_type.py          6      0      0      0   100%
+uc3m_travel\attributes\attribute_roomkey.py            6      0      0      0   100%
+uc3m_travel\hotel_management_config.py                 3      0      0      0   100%
+uc3m_travel\hotel_management_exception.py             10      1      4      0    93%
+uc3m_travel\hotel_manager.py                          28      0      0      0   100%
+uc3m_travel\hotel_reservation.py                      67      3     24      0    97%
+uc3m_travel\hotel_stay.py                             52      7     20      0    90%
+uc3m_travel\storage\__init__.py                        0      0      0      0   100%
+uc3m_travel\storage\json_store.py                     32      4     10      1    88%
+uc3m_travel\storage\json_store_check_in.py            27      1      4      1    94%
+uc3m_travel\storage\json_store_check_out.py           36      2     12      1    94%
+uc3m_travel\storage\json_store_reservations.py        22      0      4      1    96%
+------------------------------------------------------------------------------------
+TOTAL                                                392     22     94      4    95%
