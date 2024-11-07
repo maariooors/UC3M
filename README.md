@@ -8,7 +8,7 @@ This repository serves as a digital portfolio of my academic journey. I am uploa
 
 ## What You’ll Find Here
 - **Programming Assignments**: Code files, solutions, and algorithms for various subjects.
-- **Course Projects**: Full-fledged projects developed during different semesters, covering topics such as data structures, algorithms, computer architecture, artificial intelligence, databases, and more.
+- **Course Projects**: Full-fledged projects developed during different semesters, covering topics such as data structures, algorithms, computer architecture, artificial intelligence, databases, and much more.
 - **Documentation**: Detailed explanations, project overviews, and any additional insights related to each project or assignment.
 - **Code Practice**: Additional practice work and code snippets created to improve my understanding of concepts.
 
