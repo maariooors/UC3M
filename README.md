@@ -1,3 +1,29 @@
+**English below**
+
+# ¡Bienvenido a Mi GitHub!
+
+## Sobre mí
+Soy un **estudiante de Ingeniería Informática** en la **Universidad Carlos III de Madrid (UC3M)**. Aquí encontrarás una recopilación de los proyectos, trabajos y asignaturas que he realizado durante mis estudios. Me apasiona la tecnología, el desarrollo de software y aprender nuevas técnicas de programación para abordar problemas del mundo real.
+
+## Propósito de este repositorio
+Este repositorio sirve como portafolio digital de mi trayectoria académica. Estoy subiendo todos mis proyectos universitarios, tareas y otros trabajos realizados como parte de mi curso, principalmente en **Inglés** para que sea accesible a un público más amplio y para practicar la comunicación técnica en Inglés.
+
+## Lo que encontrarás aquí
+- **Tareas de programación**: Código, soluciones y algoritmos para varios temas.
+- **Proyectos del curso**: Proyectos completos desarrollados durante diferentes semestres, cubriendo temas como estructuras de datos, algoritmos, arquitectura de computadoras, inteligencia artificial, bases de datos y mucho más.
+- **Documentación**: Explicaciones detalladas, resúmenes de los proyectos y cualquier información adicional relacionada con cada proyecto o tarea.
+- **Prácticas de código**: Trabajo de práctica adicional y fragmentos de código creados para mejorar mi comprensión de los conceptos.
+
+## Tecnologías con las que trabajo
+Como parte de mis estudios, estoy trabajando activamente con una serie de lenguajes de programación, herramientas y tecnologías, incluyendo:
+- **Lenguajes**: C, C++, Python, Java, Oracle, R, Jupyter Notebooks, Bison
+- **Desarrollo web**: HTML, CSS, JavaScript, Node.js, Express
+- **Otros**: Git, Linux, Shell scripting, y más
+
+Gracias por visitar mi perfil de GitHub. Si alguno de estos proyectos te resulta útil o tienes alguna sugerencia, no dudes en ponerte en contacto conmigo o dejar un comentario.
+
+---
+
 # Welcome to My GitHub!
 
 ## About Me
