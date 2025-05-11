@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Calendario</title>
+    <link rel="stylesheet" href="/styles/calendario.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/scripts/calendario.js"></script>
+    <script src="/scripts/acciones_generico.js"></script>
+    <script src="/scripts/acciones_calendario.js"></script>
+
+</head>
+<body>
+    <canvas id="canvas" style="position: absolute; top: 0; left: 0; z-index: 9999; pointer-events: none;"></canvas>
+    <h1 id="month-title">Enero 2025</h1>
+    <div id="calendar-container"></div>
+    <div class="indicador-volumen" id="indicador-volumen" style="display: none;">
+        Volumen: <span id="valor-volumen">50</span>%
+    </div>
+
+    <audio id="audio-meditacion" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio-estudio" loop>
+        <!-- Puedes cambiar esta fuente por tu archivo de audio preferido -->
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio-trasporte" loop>
+        <!-- Puedes cambiar esta fuente por tu archivo de audio preferido -->
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="pantalla-negra" class="hidden"></div>
+</body>
+</html>

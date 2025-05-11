@@ -1,0 +1,50 @@
+:root {
+  --azul-claro: #6a9eff;
+  --azul-medio: #3a5a9a;
+  --azul-oscuro: #1a2a4a;
+  --azul-neon: #00a8ff;
+  --gris-claro: #e0e5ec;
+  --gris-oscuro: #2a3a5a;
+  --blanco-translucido: rgba(255, 255, 255, 0.1);
+  --sombra-azul: rgba(31, 38, 135, 0.25);
+  --borde-radius: 12px;
+}
+body {
+  color: rgb(255, 255, 255); 
+  font-family: sans-serif;
+  font-size: 13px; 
+  text-align: center; 
+  padding: 20px;
+  background: linear-gradient(90deg, var(--azul-oscuro) 0%, var(--azul-medio) 100%); 
+}
+.izquierda {
+  text-align: left;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.button.click {
+  background-color: #f44336;
+}
+.status {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #2a1a4a;
+  border-radius: 5px;
+}
+.last-click {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border-radius: 5px;
+}

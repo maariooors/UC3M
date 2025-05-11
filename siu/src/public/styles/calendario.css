@@ -1,0 +1,155 @@
+:root {
+    --azul-claro: #6a9eff;
+    --azul-medio: #3a5a9a;
+    --azul-oscuro: #1a2a4a;
+    --azul-neon: #00a8ff;
+    --gris-claro: #e0e5ec;
+    --gris-oscuro: #2a3a5a;
+    --blanco-translucido: rgba(255, 255, 255, 0.1);
+    --sombra-azul: rgba(31, 38, 135, 0.25);
+    --borde-radius: 12px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, var(--azul-oscuro) 0%, var(--azul-medio) 100%);
+    padding: 2rem;
+    min-height: 100vh;
+    box-sizing: border-box;
+    color: var(--gris-claro);
+}
+
+h1 {
+    font-weight: 800;
+    margin: 1rem 0 2rem;
+    color: var(--gris-claro);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 1rem 2rem;
+    border-radius: var(--borde-radius);
+    border: 1px solid var(--blanco-translucido);
+    box-shadow: 0 4px 20px var(--sombra-azul);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.calendario {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+
+.calendario .header th {
+    color: var(--gris-claro);
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 0.9rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    background: rgba(30, 60, 120, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: var(--borde-radius);
+    border: 1px solid rgba(100, 150, 255, 0.15);
+}
+
+.calendario td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 var(--sombra-azul);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: calc(var(--borde-radius) - 4px);
+    border: 1px solid var(--blanco-translucido);
+    transition: all 0.3s ease;
+}
+
+.calendario td:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.35);
+}
+
+.calendario td a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: var(--gris-claro);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    box-sizing: border-box;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.calendario td a::before {
+    content: attr(data-diasemana);
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--azul-claro);
+}
+
+.calendario td.today {
+    background: rgba(0, 168, 255, 0.4); /* Usando el azul neón */
+    box-shadow: 0 0 0 2px rgba(106, 158, 255, 0.8); /* Usando el azul claro */
+}
+
+.calendario td.today a {
+    font-weight: 700;
+    color: #fff;
+}
+
+.calendario td:empty {
+    background: rgba(58, 90, 154, 0.1); /* Usando el azul medio */
+    pointer-events: none;
+}
+
+#indicador-volumen {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0.8rem 1.2rem;
+    background: rgba(0, 40, 80, 0.5);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 50px;
+    border: 1px solid var(--azul-neon);
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 20px rgba(0, 168, 255, 0.3);
+}
+
+#valor-volumen {
+    color: var(--azul-neon);
+    font-weight: 600;
+}
+
+#pantalla-negra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--azul-oscuro);
+    z-index: 9999;
+}
+
+.hidden {
+    display: none;
+}

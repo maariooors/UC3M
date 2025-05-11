@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario del Día</title>
+    <link rel="stylesheet" href="/styles/horario.css">
+    <style>    
+
+    </style>
+</head>
+<body>
+    <canvas id="canvas" style="position: absolute; top: 0; left: 0; z-index: 9999; pointer-events: none;"></canvas>
+    <h1 id="titulo-fecha">Día</h1>
+
+    <div class="seccion manana">
+        <div class="titulo-seccion">Mañana</div>
+        <div class="actividades"></div>
+    </div>
+
+    <div class="seccion tarde">
+        <div class="titulo-seccion">Tarde</div>
+        <div class="actividades"></div>
+    </div>
+
+    <div class="seccion noche">
+        <div class="titulo-seccion">Noche</div>
+        <div class="actividades"></div>
+    </div>
+
+    <div class="indicador-volumen" id="indicador-volumen" style="display: none;">
+        Volumen: <span id="valor-volumen">50</span>%
+    </div>
+
+    <audio id="audio-meditacion" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio-meditacion" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio-meditacion" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+    </audio>
+
+    <video id="video" playsinline></video>
+    <canvas id="output-canvas"></canvas>
+    <div id="countdown"></div>
+    <div id="status"></div>
+
+    <!-- Add this button to the right side of the page -->
+    <div id="fotos-button" class="fotos-button">
+        <img src="/img/camera-icon.svg" alt="Ver fotos" title="Ver fotos del día">
+    </div>
+
+    <!-- Add the photo gallery container -->
+    <div id="foto-gallery" class="foto-gallery">
+        <div class="gallery-header">
+            <h3>Fotos del día</h3>
+            <button id="close-gallery">×</button>
+        </div>
+        <div id="gallery-content" class="gallery-content">
+            <!-- Photos will be inserted here -->
+        </div>
+    <div id="pantalla-negra" class="hidden"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <script src="/scripts/horario.js"></script>
+    <script src="/scripts/acciones_generico.js"></script>
+    <script src="/scripts/acciones_horario.js"></script>
+    
+
+</body>
+</html>

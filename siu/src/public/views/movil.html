@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Cliente</title>
+    <link rel="stylesheet" href="/styles/mobile.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/scripts/volume.js"></script>
+    <script src="/scripts/position.js"></script>
+    <script src="/scripts/leftRight.js"></script>
+    <script src="/scripts/screenZoom.js"></script>
+    <script src="/scripts/puntero.js" defer></script>
+    <script src="/scripts/voice.js"></script>
+    <script src="/scripts/scroll.js"></script>
+
+<body>
+    <h1>¡Eres el cliente!</h1>
+    <div class="izquierda">
+        <h2>Funcionalidades del móvil:</h2>
+        <h3>Generales:</h3>
+        <p>🔵 ZOOM IN == Volver al ultimo día</p>
+        <p>🔵 ZOOM OUT == Volver a los meses</p>
+        <h3>En el calendario:</h3>
+        <p>🔵 MÓVIL BOCA-ABAJO == Apagar pantalla</p>
+        <p>🔵 *movimiento puntero* == Puntero</p>
+        <p>🔵 DOBLE TAP == Click en un día del mes</p>
+        <p>🔵 GIRO IZQUIERDA-DERECHA == Cambio de mes</p>
+        <p>🔵 DEDO + INCLINACIÓN == Subir/Bajar volumen</p>
+        <h3>En el horario:</h3>
+        <p>🔵 PUÑO ABIERTO & CERRADO == Foto del día</p>
+        <p>🔵 *comando de voz* == Añadir tarea</p>
+    </div>
+    
+    <div class="status" id="statusDisplay">Estado del puntero: Esperando inicio...</div>
+    
+    <button id="startBtn" class="button">Iniciar/Parar Puntero</button>
+ 
+</body>
+</html>
