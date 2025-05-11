@@ -1,0 +1,11 @@
+main () { @ (a + 1) ; }
+main () { int a; @ (a + 1) ; }
+main () { @ (a + 1) ; int a; }
+main () { @ (a + 1) ; int a = 2; }
+main () { @ (a + 1) ; int a = 2, b = 2; }
+main () { @ (a + 1) ; int a = 2, b = 2, c = 2; }
+int a ; main () { @ (a + 1) ; }
+int a ; main () { @ (a + 1) ; int a; }
+int a ; main () { @ (a + 1) ; int a = 2; }
+int a ; main () { @ (a + 1) ; int a = 2, b = 2; }
+int a ; main () { @ (a + 1) ; int a = 2, b = 2, c = 2; }

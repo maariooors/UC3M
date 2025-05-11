@@ -1,0 +1,4 @@
+(defun main () (loop while (- 10 a) do (setq a 0 )) )
+(defun main ()(print (+ 3 5))(print (- 10 4))(print (* 6 7))(print (/ 20 4))(print (mod 10 3)))
+(defun main ()(print (and (< 3 5) (> 10 7)))(print (or (<= 4 4) (>= 8 10)))(print (not (= 5 5))))
+(defun main ()(print (< 3 5))(print (<= 4 4))(print (> 10 7))(print (>= 8 10))(print (= 5 5))(print (/= 6 7)))

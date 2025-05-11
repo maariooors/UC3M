@@ -1,0 +1,8 @@
+Axioma → Expresion <intro>
+Expresion  →  Operando
+              |  Operando  +  Expresión
+              |  Operando  –  Expresion
+              | Operando * Expresion
+              | Operando / Expresion
+Operando → Digito
+Digito → 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9

@@ -1,0 +1,19 @@
+Axioma → Expresion '\n'
+
+Expresion → Termino
+          | Termino + Expresion
+          | Termino - Expresion
+
+Termino → Factor
+        | Factor * Termino
+        | Factor / Termino
+
+Factor → Operando
+        | '(' Expresion ')'
+
+Operando → Numero
+
+Numero → Digito
+        | Numero Digito
+
+Digito → 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9

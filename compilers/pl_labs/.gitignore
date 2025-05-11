@@ -1,0 +1,4 @@
+cmake-build-debug/
+.idea/
+lab1/analisis.y
+lab2/analisis.y

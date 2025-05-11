@@ -1,0 +1,25 @@
+(setq x 10)(setq y 20)(main)
+(setq x 10)(setq y 20)(defun main () (print x) (print y))
+(main)(defun main () (print "Hello, World!"))
+(setq x 10)(setq y 20)(defun main () (princ (+ x y)) (princ (* x y)))
+(defun main ()(princ "Hola Mundo"))
+(defun main ()(print "Hola Mundo"))
+(defun main ()(princ (+ 2 2)) (princ (+ 3 3)))
+(defun main ()(princ (+ 2 2)) (princ (+ 3 3)) (print "Hola Mundo"))
+(defun main ()(loop while (- 10 a) do (setf a (+ a 1))))
+(defun main ()(loop while (- 10 a) do (setf a (+ a 1))(setf a 0)))
+(defun main ()(loop while (< 2 2) do (setf a (+ a 1))(setf a 0)))
+(defun main ()(loop while (/= 2 2) do (setf a (+ a 1))(setf a 0)))
+(defun main ()(if (= a 0) (progn (setf b 123))))
+(defun main ()(if (= a 0) (progn (setf b 123))(progn (setf b 456))))
+(setq a 0)(defun main ()(if (= a 0)(progn (setf b 123))(progn (setf b 456))))
+(setq a 0)(setq b 0)(defun main ()(+ a 2))   //ERROR !!!!!!!!!!!!!!
+(setq a 1)(defun main ()(if (= a 0)(progn (setf b 123))(progn (setf b 456)))(+ a 2))   //ERROR!!!!!!!!!!!!!!!!
+(defun main ()(if (= a 0)(progn (print " es par")(setf ep 1))(progn (setf b 456))))
+(defun main ()(setf a (+ 3 (* 2 4))))
+(defun main ()(if (and (> a 0) (< b 10))(progn (setf c 1))(progn (setf c 0))))
+(defun main ()(if (or (> a 0) (< b 10))(progn (setf c 1))(progn (setf c 0))))
+(defun main ()(loop while (< a 10) do (setf a (+ a 1))(loop while (< b 5) do (setf b (+ b 1)))))
+(defun main ()(princ a) (princ " and ") (princ b) (princ " sum: ") (princ (+ a b)))
+
+
